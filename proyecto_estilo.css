@@ -1,5 +1,5 @@
 .indexwp{
-    background: url(Media/pcityb.jpg);
+    background: url(media/pcityb.jpg);
     background-size: cover;
     min-height: 1750px;
 }
@@ -10,14 +10,39 @@
 .textoaltura{
     font-size: 25px;
 }
+.bordesindex{
+    border:5px solid #581648;  
+    margin-top:10px;
+}
 span{
     padding: 0px 20px 5px;
   }
-.botoninicio{
+.botonindex{
     background: rgb(78,21,131);
     background: linear-gradient(90deg, rgba(78,21,131,1) 0%, rgba(139,9,145,1) 100%);
 }
-.forminicio{
+.formindex{
     background: rgb(0, 90, 95);
     background: radial-gradient(circle, rgb(0, 90, 95) 0%, rgba(106,23,149,1) 100%);
+}
+.iniciowp{
+    background: url(media/botw02.jpg);
+    background-size: cover;
+    min-height: 1000px;
+}
+.colorinicio{
+    background: rgb(130,98,1);
+    background: radial-gradient(circle, rgba(130,98,1,.65) 0%, rgba(119, 125, 0, 0.65) 100%);
+}
+.forminicio{
+    background: rgb(130,98,1);
+    background: radial-gradient(circle, rgba(130,98,1,1) 0%, rgb(131, 138, 6) 100%);
+}
+.botoninicio{
+    background: rgb(130,98,1);
+    background: radial-gradient(circle, rgba(130,98,1,1) 0%, rgb(131, 138, 6) 100%);
+}
+.bordesinicio{
+    border:5px solid #4d4506;  
+    margin-top:10px;
 }

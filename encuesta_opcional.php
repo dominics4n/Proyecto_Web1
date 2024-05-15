@@ -7,7 +7,8 @@ $resultado = $conexion -> query($buscarpartida);
 $count =mysqli_num_rows($resultado);
 
 if($count==1){
-    echo"usuario ya registrado";
+    echo'<h1>usuario ya registrado</h1>
+    <img src="media/simsprank.jpg">';
 
 }else{
     mysqli_query($conexion,"INSERT INTO Encuesta_Opcional (
@@ -15,6 +16,7 @@ if($count==1){
         VALUES(
             '$_POST[nombre_usuario]','$_POST[correo_usuario]','$_POST[vg_usuario]','$_POST[music_usuario]','$_POST[quote_usuario]'
         )");
-    echo"ok";
+    echo'<h1>ok</h1>
+    <img src="media/yogurting.jpg">';
 }
 ?>

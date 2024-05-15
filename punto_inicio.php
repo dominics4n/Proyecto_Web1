@@ -18,11 +18,11 @@
     <header>
         <nav class="nav-wrapper colorinicio">
             <div class="container">
-                <a href="#" class="brand-logo">Proyecto</a>
+                <a href="index.php" class="brand-logo">Proyecto</a>
                 <ul class="right">
                     <li> <a class="navclase" href="camino_personal.php"> Tu camino</a></li>
                     <li> <a class="navclase" href="camino_global.php"> Camino Global</a></li>
-                    <li> <a class="navclase" href="soulkillertarget"> Borrar Partida</a></li>
+                    <li> <a class="navclase" href="soulkillertarget.php"> Borrar Partida</a></li>
                 </ul>
             </div>
         </nav>
@@ -59,8 +59,3 @@
     <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 </html>
-<img src="media/okthenlistenplease.jpg">
-<img src="media/cyberworld.jpg">
-<img src="media/mikuhouse.jpg">
-<img src="media/simsprank.jpg">
-<img src="media/yogurting.jpg">

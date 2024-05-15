@@ -18,11 +18,11 @@
     <header>
         <nav class="nav-wrapper colorindex">
             <div class="container">
-                <a href="#" class="brand-logo">Proyecto</a>
+                <a href="index.php" class="brand-logo">Proyecto</a>
                 <ul class="right">
-                    <li> <a class="navclase" href="#"> Tu camino</a></li>
-                    <li> <a class="navclase" href="#"> Camino Global</a></li>
-                    <li> <a class="navclase" href="#"> Borrar Partida</a></li>
+                    <li> <a class="navclase" href="camino_personal.php"> Tu camino</a></li>
+                    <li> <a class="navclase" href="camino_global.php"> Camino Global</a></li>
+                    <li> <a class="navclase" href="soulkillertarget.php"> Borrar Partida</a></li>
                 </ul>
             </div>
         </nav>
@@ -31,12 +31,12 @@
         <h2 class="white-text"><span class="colorindex">Explicacion del proyecto</span></h2>
         <p class="white-text textoaltura"><span class="colorindex">El objetivo de este proyecto es demostrar la creacion de una base de datos y las tablas que la conforman, asi como el insertar, actualizar, visualizar y eliminar sus diferentes datos, todo esto aplicado para administrar la toma de diferentes deciciones dentro de una pequeña aventura de texto </span></p>
         <br><br>
-        <div class="center-align"><a class="waves-effect waves-light btn-large botoninicio" href="#">Comenzar</a></div>
+        <div class="center-align"><a class="waves-effect waves-light btn-large botonindex" href="punto_inicio.php">Comenzar</a></div>
         <br><br><br><br><br>
     </div>
     <div class="container">
         <div class="row">
-            <form action="encuesta_opcional.php" method="post" class="col s8 offset-s2 forminicio">
+            <form action="encuesta_opcional.php" method="post" class="col s8 offset-s2 bordesindex formindex">
             <div class="col s10 offset-s1">
                 <h4 class="white-text center-align">Encuesta Random Extra</h4>
                 <br>
@@ -78,7 +78,7 @@
                     </div>
                 </div>
                 <div class="row center-align">
-                    <button class="btn waves-effect waves-light botoninicio" type="submit" name="action">Submit
+                    <button class="btn waves-effect waves-light botonindex" type="submit" name="action">Submit
                         <i class="material-icons right">send</i>
                     </button>
                 </div>
