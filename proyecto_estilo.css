@@ -46,3 +46,24 @@ span{
     border:5px solid #4d4506;  
     margin-top:10px;
 }
+.temporalwp{
+    background: url(media/cuptsuba.jpg);
+    background-size: cover;
+    min-height: 1000px;
+}
+.colortemporal{
+    background: rgb(60, 2, 49);
+    background: radial-gradient(circle, rgba(60, 2, 49,.65) 0%, rgba(78, 2, 47, 0.65) 100%);
+}
+.formtemporal{
+    background: rgb(60, 2, 49);
+    background: radial-gradient(circle, rgba(60, 2, 49,.65) 0%, rgba(78, 2, 47, 0.65) 100%);
+}
+.botontemporal{
+    background: rgb(60, 2, 49);
+    background: radial-gradient(circle, rgba(60, 2, 49, 1) 0%, rgba(78, 2, 47, 1) 100%);
+}
+.bordestemporal{
+    border:5px solid #2c021e;  
+    margin-top:10px;
+}

@@ -39,7 +39,6 @@
                 <br>
                 <div class="row bordesinicio forminicio">
                     <div class="input-field">
-                        <i class="material-icons prefix white-text">account_circle</i>
                         <input placeholder="XxX_USU4R10_XxX" name="nombre_usuario" id="nombre_usuario" type="text" class="white-text" required>
                         <label class="white-text" for="nombre_usuario">Nombre de Usuario</label>
                     </div>
