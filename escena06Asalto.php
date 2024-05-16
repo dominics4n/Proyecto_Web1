@@ -15,15 +15,33 @@
 </head>
 <?php
 include "conexion.php";
-
-$sesionusuario = $_POST['nombre_usuario'];
 session_start();
-$_SESSION['clairo'] = $sesionusuario;
+/*actualiza escena 1 en tabla*/
+mysqli_query($conexion, "UPDATE IDpartida SET escena5='$_POST[escena5]'
+WHERE nombre_usuario ='$_SESSION[clairo]'");
 
-$buscarpartida="SELECT * FROM  IDpartida WHERE nombre_usuario ='$_POST[nombre_usuario]'";
-$resultado = $conexion -> query($buscarpartida);
+/*eleccion escena 2 ramas*/
+$buscareleccion="SELECT * FROM IDpartida WHERE nombre_usuario ='$_SESSION[clairo]' 
+AND escena5 ='Regresar'";
+
+$resultado = $conexion -> query($buscareleccion);
 $count =mysqli_num_rows($resultado);
-echo'
+if($count==1){
+    mysqli_query($conexion, "UPDATE IDpartida SET escena6='----------'
+    WHERE nombre_usuario ='$_SESSION[clairo]'");
+    mysqli_query($conexion, "UPDATE IDpartida SET escena7='----------'
+    WHERE nombre_usuario ='$_SESSION[clairo]'");
+    mysqli_query($conexion, "UPDATE IDpartida SET escena8='----------'
+    WHERE nombre_usuario ='$_SESSION[clairo]'");
+    mysqli_query($conexion, "UPDATE IDpartida SET escena9='----------'
+    WHERE nombre_usuario ='$_SESSION[clairo]'");
+    mysqli_query($conexion, "UPDATE IDpartida SET escena10='----------'
+    WHERE nombre_usuario ='$_SESSION[clairo]'");
+    mysqli_query($conexion, "UPDATE IDpartida SET Final='Ya te la sabes krnal'
+    WHERE nombre_usuario ='$_SESSION[clairo]'");
+    mysqli_query($conexion, "UPDATE IDpartida SET Estado='Navajeado'
+    WHERE nombre_usuario ='$_SESSION[clairo]'");
+    echo'
 <body>
 <div class="temporalwp">
     <header>
@@ -38,20 +56,30 @@ echo'
             </div>
         </nav>
     </header>
-';
-if($count==1){
-    echo'<h4 class="colortemporal white-text">      Advertencia, el usuario ya esta registrado, si continua se sobreescribira su partida anterior</h4>
-    <br><br>';
-}else{
-    mysqli_query($conexion,"INSERT INTO IDpartida (
-        nombre_usuario)
-        VALUES(
-            '$_POST[nombre_usuario]'
-        )");
-}
-echo'
     <div class="container">
-        <h2 class="white-text"><span class="colortemporal">Escena 1</span></h2>
+        <h2 class="white-text"><span class="colortemporal">Golpear Bandido</span></h2>
+        <p class="white-text textoaltura"><span class="colortemporal">MORTIS    </span></p>
+        <br><br>
+    </div>
+';
+}else{
+    echo'
+<body>
+<div class="temporalwp">
+    <header>
+        <nav class="nav-wrapper colortemporal">
+            <div class="container">
+                <a href="index.php" class="brand-logo">Proyecto</a>
+                <ul class="right">
+                    <li> <a class="navclase" href="camino_personal.php"> Tu camino</a></li>
+                    <li> <a class="navclase" href="camino_global.php"> Camino Global</a></li>
+                    <li> <a class="navclase" href="soulkillertarget.php"> Borrar Partida</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h2 class="white-text"><span class="colortemporal">Negociar</span></h2>
         <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
         Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
         Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
@@ -59,23 +87,23 @@ echo'
     </div>
 <div class="container">
 <div class="row">
-    <form action="escena2.php" method="post" class="col s10 offset-s1">
+    <form action="escena07TierraFirme.php" method="post" class="col s10 offset-s1">
     <div class="col s8 offset-s2">
         <br>
         <div class="row bordestemporal formtemporal">
         <div class="col s6 center-align">
             <p>
                 <label>
-                    <input value="Bosque" name="escena1" type="radio"  required />
-                    <span class="white-text">Bosque</span>
+                    <input type="radio" name="escena6" value="Acampar" required />
+                    <span class="white-text">Acampar</span>
                 </label>
             </p>
         </div>
         <div class="col s6 center-align">
             <p>
             <label>
-                <input value="Llanura" name="escena1" type="radio"  />
-                <span class="white-text">Llanura</span>
+                <input type="radio" name="escena6" value="Encontrar Muralla"/>
+                <span class="white-text">Encontrar Muralla</span>
             </label>
             </p>
         </div>
@@ -89,6 +117,11 @@ echo'
     </div>
     </div>
     </form>
+    </div>
+    </div>
+';
+}
+echo'
 </div>
 
     <!--JavaScript at end of body for optimized loading-->

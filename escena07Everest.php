@@ -17,24 +17,16 @@
 include "conexion.php";
 session_start();
 /*actualiza escena 1 en tabla*/
-mysqli_query($conexion, "UPDATE IDpartida SET escena3='$_POST[escena3]'
+mysqli_query($conexion, "UPDATE IDpartida SET escena6='$_POST[escena6]'
 WHERE nombre_usuario ='$_SESSION[clairo]'");
 
 /*eleccion escena 2 ramas*/
 $buscareleccion="SELECT * FROM IDpartida WHERE nombre_usuario ='$_SESSION[clairo]' 
-AND escena3 ='Intenta Correr'";
-$tripleeleccion="SELECT * FROM IDpartida WHERE nombre_usuario ='$_SESSION[clairo]' 
-AND escena3 ='Ataca'";
+AND escena6 ='Escalar++'";
 
 $resultado = $conexion -> query($buscareleccion);
 $count =mysqli_num_rows($resultado);
 if($count==1){
-    mysqli_query($conexion, "UPDATE IDpartida SET escena4='----------'
-    WHERE nombre_usuario ='$_SESSION[clairo]'");
-    mysqli_query($conexion, "UPDATE IDpartida SET escena5='----------'
-    WHERE nombre_usuario ='$_SESSION[clairo]'");
-    mysqli_query($conexion, "UPDATE IDpartida SET escena6='----------'
-    WHERE nombre_usuario ='$_SESSION[clairo]'");
     mysqli_query($conexion, "UPDATE IDpartida SET escena7='----------'
     WHERE nombre_usuario ='$_SESSION[clairo]'");
     mysqli_query($conexion, "UPDATE IDpartida SET escena8='----------'
@@ -43,9 +35,9 @@ if($count==1){
     WHERE nombre_usuario ='$_SESSION[clairo]'");
     mysqli_query($conexion, "UPDATE IDpartida SET escena10='----------'
     WHERE nombre_usuario ='$_SESSION[clairo]'");
-    mysqli_query($conexion, "UPDATE IDpartida SET Final='Lobo Solitario'
+    mysqli_query($conexion, "UPDATE IDpartida SET Final='Celeste'
     WHERE nombre_usuario ='$_SESSION[clairo]'");
-    mysqli_query($conexion, "UPDATE IDpartida SET Estado='huesitos'
+    mysqli_query($conexion, "UPDATE IDpartida SET Estado='Paz interior'
     WHERE nombre_usuario ='$_SESSION[clairo]'");
     echo'
 <body>
@@ -63,67 +55,13 @@ if($count==1){
         </nav>
     </header>
     <div class="container">
-        <h2 class="white-text"><span class="colortemporal">Intenta Correr</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">MORTIS</span></p>
+        <h2 class="white-text"><span class="colortemporal">Celeste</span></h2>
+        <p class="white-text textoaltura"><span class="colortemporal">Final Secreto 2</span></p>
         <br><br>
-    </div>
-    </div>
     </div>
 ';
 }else{
-    $resultado = $conexion -> query($tripleeleccion);
-    $count =mysqli_num_rows($resultado);
-    if($count==1){
-        echo'
-        <body>
-        <div class="temporalwp">
-            <header>
-                <nav class="nav-wrapper colortemporal">
-                    <div class="container">
-                        <a href="index.php" class="brand-logo">Proyecto</a>
-                        <ul class="right">
-                            <li> <a class="navclase" href="camino_personal.php"> Tu camino</a></li>
-                            <li> <a class="navclase" href="camino_global.php"> Camino Global</a></li>
-                            <li> <a class="navclase" href="soulkillertarget.php"> Borrar Partida</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </header>
-            <div class="container">
-                <h2 class="white-text"><span class="colortemporal">Ataca</span></h2>
-                <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-                Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-                Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
-                <br><br>
-            </div>
-        <div class="container">
-        <div class="row">
-            <form action="escena05RioLobo.php" method="post" class="col s10 offset-s1">
-            <div class="col s8 offset-s2">
-                <br>
-                <div class="row bordestemporal formtemporal">
-                <div class="col s12 center-align">
-                    <p>
-                        <label>
-                            <input type="radio" name="escena4" value="Rio" required />
-                            <span class="white-text">Rio</span>
-                        </label>
-                    </p>
-                </div>
-                </div>
-            <div class="row center-align">
-            <div class="col s8 offset-s2">
-                <button class="btn waves-effect waves-light botontemporal" type="submit" name="action">Continuar
-                    <i class="material-icons right">play_arrow</i>
-                </button>
-            </div>
-            </div>
-            </form>
-            </div>
-            </div>
-        ';
-    }else{
-        echo'
+    echo'
 <body>
 <div class="temporalwp">
     <header>
@@ -139,7 +77,7 @@ if($count==1){
         </nav>
     </header>
     <div class="container">
-        <h2 class="white-text"><span class="colortemporal">No ataca</span></h2>
+        <h2 class="white-text"><span class="colortemporal">Golpear Vendedor</span></h2>
         <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
         Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
         Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
@@ -147,23 +85,23 @@ if($count==1){
     </div>
 <div class="container">
 <div class="row">
-    <form action="escena05RioLobo.php" method="post" class="col s10 offset-s1">
+    <form action="escena08Tormenta.php" method="post" class="col s10 offset-s1">
     <div class="col s8 offset-s2">
         <br>
         <div class="row bordestemporal formtemporal">
         <div class="col s6 center-align">
             <p>
                 <label>
-                    <input type="radio" name="escena4" value="Barco con Lobo" required />
-                    <span class="white-text">Barco con Lobo</span>
+                    <input type="radio" name="escena7" value="Tormenta" required />
+                    <span class="white-text">Tormenta</span>
                 </label>
             </p>
         </div>
         <div class="col s6 center-align">
             <p>
             <label>
-                <input type="radio" name="escena4" value="Rio" />
-                <span class="white-text">Rio</span>
+                <input type="radio" name="escena7" value="Cueva" />
+                <span class="white-text">Cueva</span>
             </label>
             </p>
         </div>
@@ -180,8 +118,6 @@ if($count==1){
     </div>
     </div>
 ';
-    }
-    
 }
 echo'
 </div>

@@ -17,66 +17,16 @@
 include "conexion.php";
 session_start();
 /*actualiza escena 1 en tabla*/
-mysqli_query($conexion, "UPDATE IDpartida SET escena1='$_POST[escena1]'
+mysqli_query($conexion, "UPDATE IDpartida SET escena9='$_POST[escena9]'
 WHERE nombre_usuario ='$_SESSION[clairo]'");
 
 /*eleccion escena 2 ramas*/
 $buscareleccion="SELECT * FROM IDpartida WHERE nombre_usuario ='$_SESSION[clairo]' 
-AND escena1 ='Bosque'";
+AND escena9 ='Cima Volcan'";
 
 $resultado = $conexion -> query($buscareleccion);
 $count =mysqli_num_rows($resultado);
 if($count==1){
-    echo"sijalabosque";
-    echo'
-    <div class="container">
-        <h2 class="white-text"><span class="colortemporal">Escena 1</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
-        <br><br>
-    </div>
-<div class="container">
-<div class="row">
-    <form action="escena2.php" method="post" class="col s10 offset-s1">
-    <div class="col s8 offset-s2">
-        <br>
-        <div class="row bordestemporal formtemporal">
-        <div class="col s6 center-align">
-            <p>
-                <label>
-                    <input name="escena1" type="radio" id="Bosque" required />
-                    <span class="white-text">Bosque</span>
-                </label>
-            </p>
-        </div>
-        <div class="col s6 center-align">
-            <p>
-            <label>
-                <input name="escena1" type="radio" id="Llanura" />
-                <span class="white-text">Llanura</span>
-            </label>
-            </p>
-        </div>
-        </div>
-    </div>
-    <div class="row center-align">
-    <div class="col s8 offset-s2">
-        <button class="btn waves-effect waves-light botontemporal" type="submit" name="action">Continuar
-            <i class="material-icons right">play_arrow</i>
-        </button>
-    </div>
-    </div>
-    </form>
-</div>
-
-    <!--JavaScript at end of body for optimized loading-->
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-</body>
-</html>
-';
-}else{
-    echo"sijalaLlanura";
     echo'
 <body>
 <div class="temporalwp">
@@ -93,7 +43,7 @@ if($count==1){
         </nav>
     </header>
     <div class="container">
-        <h2 class="white-text"><span class="colortemporal">Escena 1</span></h2>
+        <h2 class="white-text"><span class="colortemporal">Cima Volcan</span></h2>
         <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
         Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
         Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
@@ -101,23 +51,23 @@ if($count==1){
     </div>
 <div class="container">
 <div class="row">
-    <form action="escena2.php" method="post" class="col s10 offset-s1">
+    <form action="FinalAltura.php" method="post" class="col s10 offset-s1">
     <div class="col s8 offset-s2">
         <br>
         <div class="row bordestemporal formtemporal">
         <div class="col s6 center-align">
             <p>
                 <label>
-                    <input name="escena1" type="radio" id="Bosque" required />
-                    <span class="white-text">Bosque</span>
+                    <input type="radio" name="escena10" value="Lanzar Roca" required />
+                    <span class="white-text">Lanzar Roca</span>
                 </label>
             </p>
         </div>
         <div class="col s6 center-align">
             <p>
             <label>
-                <input name="escena1" type="radio" id="Llanura" />
-                <span class="white-text">Llanura</span>
+                <input type="radio" name="escena10" value="Asesinato Aereo" />
+                <span class="white-text">Asesinato Aereo</span>
             </label>
             </p>
         </div>
@@ -131,6 +81,69 @@ if($count==1){
     </div>
     </div>
     </form>
+    </div>
+    </div>
+';
+}else{
+    echo'
+<body>
+<div class="temporalwp">
+    <header>
+        <nav class="nav-wrapper colortemporal">
+            <div class="container">
+                <a href="index.php" class="brand-logo">Proyecto</a>
+                <ul class="right">
+                    <li> <a class="navclase" href="camino_personal.php"> Tu camino</a></li>
+                    <li> <a class="navclase" href="camino_global.php"> Camino Global</a></li>
+                    <li> <a class="navclase" href="soulkillertarget.php"> Borrar Partida</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h2 class="white-text"><span class="colortemporal">Corazon Volcan</span></h2>
+        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
+        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
+        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <br><br>
+    </div>
+<div class="container">
+<div class="row">
+    <form action="FinalCorazonVolcan.php" method="post" class="col s10 offset-s1">
+    <div class="col s8 offset-s2">
+        <br>
+        <div class="row bordestemporal formtemporal">
+        <div class="col s6 center-align">
+            <p>
+                <label>
+                    <input type="radio" name="escena10" value="1vs1" required />
+                    <span class="white-text">1vs1</span>
+                </label>
+            </p>
+        </div>
+        <div class="col s6 center-align">
+            <p>
+            <label>
+                <input type="radio" name="escena10" value="Asesinar con Sigilo" />
+                <span class="white-text">Asesinar con Sigilo</span>
+            </label>
+            </p>
+        </div>
+        </div>
+    </div>
+    <div class="row center-align">
+    <div class="col s8 offset-s2">
+        <button class="btn waves-effect waves-light botontemporal" type="submit" name="action">Continuar
+            <i class="material-icons right">play_arrow</i>
+        </button>
+    </div>
+    </div>
+    </form>
+    </div>
+    </div>
+';
+}
+echo'
 </div>
 
     <!--JavaScript at end of body for optimized loading-->
@@ -138,6 +151,4 @@ if($count==1){
 </body>
 </html>
 ';
-}
-
 ?>
