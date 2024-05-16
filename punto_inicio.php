@@ -34,7 +34,7 @@
     </div>
     <div class="container">
         <div class="row">
-            <form action="escena1.php" method="post" class="col s8 offset-s2">
+            <form action="escena01.php" method="post" class="col s8 offset-s2">
             <div class="col s10 offset-s1">
                 <br>
                 <div class="row bordesinicio forminicio">
