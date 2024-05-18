@@ -56,7 +56,7 @@ if($count==1){
     </header>
     <div class="container">
         <h2 class="white-text"><span class="colortemporal">Celeste</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Final Secreto 2</span></p>
+        <p class="white-text textoaltura"><span class="colortemporal">Si ya llegaste hasta aquí bien podrías llegar a la cima, continuas escalando, entre mas subes la montaña más olvidas tus deseos de venganza, hasta que finalmente logras ser el primer ser humano en alcanzar la punta de la montaña, te sientas un momento para contemplar las vistas, y con un nuevo propósito en la vida, comienzas a descender la montaña</span></p>
         <br><br>
     </div>
 ';
@@ -77,10 +77,8 @@ if($count==1){
         </nav>
     </header>
     <div class="container">
-        <h2 class="white-text"><span class="colortemporal">Golpear Vendedor</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <h2 class="white-text"><span class="colortemporal">puente</span></h2>
+        <p class="white-text textoaltura"><span class="colortemporal">Atraviesas el puente rápidamente, y al llegar al otro lado te encuentras con que ha comenzado una tormenta de nieve, puedes buscar refugio en una cueva cercana, o puedes intentar bajar la montaña rápidamente para evitar retrasarte aún más</span></p>
         <br><br>
     </div>
 <div class="container">

@@ -48,9 +48,7 @@ if($count==1){
     </header>
     <div class="container">
         <h2 class="white-text"><span class="colortemporal">Encontrar Muralla</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <p class="white-text textoaltura"><span class="colortemporal">continuas con tu viaje hasta finalmente llegar al castillo, pero te encuentras con una muralla defendiendolo, podrías intentar rodearla e intentar encontrar una entrada, o simplemente escalarla</span></p>
         <br><br>
     </div>
 <div class="container">
@@ -104,16 +102,14 @@ echo'
             </div>
         </nav>
     </header>
-    <div class="container">
-        <h2 class="white-text"><span class="colortemporal">Seguir camino</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
-        <br><br>
-    </div>
 ';
     if($countgolpe==1){
     echo'
+    <div class="container">
+        <h2 class="white-text"><span class="colortemporal">Seguir camino</span></h2>
+        <p class="white-text textoaltura"><span class="colortemporal">Continuas por el camino con tu nuevo caballo cuando te encuentras con un comerciante, cuyo carruaje acaba de perder a su caballo, este te ofrece mostrarte el camino hacia la entrada de comerciantes del castillo si dejas que tu caballo lo ayude con su carruaje</span></p>
+        <br><br>
+    </div>
 <div class="container">
 <div class="row">
     <form action="escena08Infinito.php" method="post" class="col s10 offset-s1">
@@ -151,6 +147,11 @@ echo'
 ';
     }else{
         echo'
+        <div class="container">
+        <h2 class="white-text"><span class="colortemporal">Seguir camino</span></h2>
+        <p class="white-text textoaltura"><span class="colortemporal">Continuas por el camino pero notas que hay arboles que estas seguro ya haber visto antes, sin saber que hacer continuas avanzando</span></p>
+        <br><br>
+    </div>
 <div class="container">
 <div class="row">
     <form action="escena08Infinito.php" method="post" class="col s10 offset-s1">

@@ -17,16 +17,20 @@
 include "conexion.php";
 session_start();
 /*actualiza escena 1 en tabla*/
-mysqli_query($conexion, "UPDATE IDpartida SET escena9='$_POST[escena9]'
+mysqli_query($conexion, "UPDATE IDpartida SET escena10='$_POST[escena10]'
 WHERE nombre_usuario ='$_SESSION[clairo]'");
 
 /*eleccion escena 2 ramas*/
 $buscareleccion="SELECT * FROM IDpartida WHERE nombre_usuario ='$_SESSION[clairo]' 
-AND escena9 ='Amenazar Guardia'";
+AND escena10 ='Lanzar Roca'";
 
 $resultado = $conexion -> query($buscareleccion);
 $count =mysqli_num_rows($resultado);
 if($count==1){
+    mysqli_query($conexion, "UPDATE IDpartida SET Final='Accidente de Trabajo'
+    WHERE nombre_usuario ='$_SESSION[clairo]'");
+    mysqli_query($conexion, "UPDATE IDpartida SET Estado='Sindicalizado'
+    WHERE nombre_usuario ='$_SESSION[clairo]'");
     echo'
 <body>
 <div class="temporalwp">
@@ -43,12 +47,16 @@ if($count==1){
         </nav>
     </header>
     <div class="container">
-        <h2 class="white-text"><span class="colortemporal">Amenazar Guardia</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Le gritas al guardia, diciéndole que los dos serán ejecutados si no logras hacer la entrega al rey, el guardia claramente no te cree pero no le pagan lo suficiente para tener que aguantar cosas como esa, asi que te deja pasar con tal de no tener que verte nunca mas</span></p>
+        <h2 class="white-text"><span class="colortemporal">Accidente de trabajo</span></h2>
+        <p class="white-text textoaltura"><span class="colortemporal">Volteas a tu derecha y observas una roca cómicamente grande esperando un pequeño empujón para caer hacia el rey, asi que se lo das, la roca cae con tal fuerza y velocidad que al momento de impactar esta explota, no sin antes licuar completamente el cuerpo del rey, este suceso fue visto como un accidente de trabajo en el reino, lo que impulsó diversos sindicatos y reformas para asegurarse de que los trabajadores tuvieran condiciones de trabajo seguras y dignas</span></p>
         <br><br>
     </div>
 ';
 }else{
+    mysqli_query($conexion, "UPDATE IDpartida SET Final='Assassins Creed'
+    WHERE nombre_usuario ='$_SESSION[clairo]'");
+    mysqli_query($conexion, "UPDATE IDpartida SET Estado='Obliterado'
+    WHERE nombre_usuario ='$_SESSION[clairo]'");
     echo'
 <body>
 <div class="temporalwp">
@@ -65,48 +73,12 @@ if($count==1){
         </nav>
     </header>
     <div class="container">
-        <h2 class="white-text"><span class="colortemporal">Sobornar Guardia</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lo sobornas con el poco dinero que te quedaba, el guardia realmente odia su trabajo así que acepta tu dinero sin pensarlo mucho y te lleva a la sala de invitados, donde pronto llegará el rey</span></p>
+        <h2 class="white-text"><span class="colortemporal">Assasins Creed</span></h2>
+        <p class="white-text textoaltura"><span class="colortemporal">Recuerdas tu entrenamiento en la orden de los asesinos y realizas un salto de fe, conforme ganas velocidad recuerdas que en realidad tú no recibiste entrenamiento de la orden y que eso solo fue una orbea de teatro que viste, pero ya es demasiado tarde, alcanzas la velocidad terminal pero logras controlar la dirección lo suficiente como para alcanzar al rey, en el momento en el que hacen contacto, sus cuerpos se obliteran mutuamente, dejando un pequeño cráter y una masa roja indistinguible en el suelo, valio la pena? valio cada maldito segundo</span></p>
         <br><br>
     </div>
 ';
 }
-echo'
-<div class="container">
-<div class="row">
-    <form action="FinalAmazon.php" method="post" class="col s10 offset-s1">
-    <div class="col s8 offset-s2">
-        <br>
-        <div class="row bordestemporal formtemporal">
-        <div class="col s6 center-align">
-            <p>
-                <label>
-                    <input type="radio" name="escena10" value="1vs1" required />
-                    <span class="white-text">1vs1</span>
-                </label>
-            </p>
-        </div>
-        <div class="col s6 center-align">
-            <p>
-            <label>
-                <input type="radio" name="escena10" value="Entregar Vino" />
-                <span class="white-text">Entregar Vino</span>
-            </label>
-            </p>
-        </div>
-        </div>
-    </div>
-    <div class="row center-align">
-    <div class="col s8 offset-s2">
-        <button class="btn waves-effect waves-light botontemporal" type="submit" name="action">Continuar
-            <i class="material-icons right">play_arrow</i>
-        </button>
-    </div>
-    </div>
-    </form>
-    </div>
-    </div>
-';
 echo'
 </div>
 

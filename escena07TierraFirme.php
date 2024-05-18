@@ -55,8 +55,8 @@ if($count==1){
         </nav>
     </header>
     <div class="container">
-        <h2 class="white-text"><span class="colortemporal">Acampar</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">MORTIS</span></p>
+        <h2 class="white-text"><span class="colortemporal">Firewatch</span></h2>
+        <p class="white-text textoaltura"><span class="colortemporal">Inicias la fogata y como lo esperabas, el material es perfecto para iniciar un fuego, tal vez demasiado perfecto, una sola chispa se aleja de tu fogata y prende el pasto seco del suelo, el cual rápidamente se extiende a los árboles cercanos, lo que ocasiona una reacción en cadena que causaría el mayor incendio forestal de la historia hasta la fecha, solo unas horas bastaron para que el incendio alcanzara las tierras del Rey, consumiendo por completo cualquier recurso natural a su alrededor, con una crisis de madera y comida, el reino rápidamente se vio envuelto en una revolución en la que se decapitó a toda la familia real, y terminó siendo abandonado poco tiempo después al no tener acceso a suelo fértil o materias primas básicas</span></p>
         <br><br>
     </div>
 ';
@@ -77,10 +77,8 @@ if($count==1){
         </nav>
     </header>
     <div class="container">
-        <h2 class="white-text"><span class="colortemporal">Golpear Vendedor</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <h2 class="white-text"><span class="colortemporal">Continuar</span></h2>
+        <p class="white-text textoaltura"><span class="colortemporal">No hay tiempo para descansar, continuas con tu viaje hasta finalmente llegar al castillo, pero te encuentras con una muralla defendiendolo, podrías intentar rodearla e intentar encontrar una entrada, o simplemente escalarla</span></p>
         <br><br>
     </div>
 <div class="container">

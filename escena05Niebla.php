@@ -44,9 +44,7 @@ if($count==1){
     </header>
     <div class="container">
         <h2 class="white-text"><span class="colortemporal">Pantano</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <p class="white-text textoaltura"><span class="colortemporal">Decides intentar seguir el camino, después de una hora de caminar a ciegas y golpearte constantemente contra árboles, logras escapar de la niebla. Descubres que el camino te ha traído a un pantano, Hay un puente que atraviesa el pantano, que es sin duda el camino más corto, pero se ve bastante viejo y no sabes si es seguro cruzarlo, también podrías rodear el pantano pero puedes ver a una gran cantidad de cocodrilos descansando alrededor de este</span></p>
         <br><br>
     </div>
 <div class="container">
@@ -102,9 +100,7 @@ if($count==1){
     </header>
     <div class="container">
         <h2 class="white-text"><span class="colortemporal">Rio</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <p class="white-text textoaltura"><span class="colortemporal">Decides escuchar a tus sentidos, lo que te lleva a un río, donde también encuentras convenientemente una barca con la que podrás viajar cómodamente a través de este, después de navegar por un rato las aguas empiezan a ponerse un poco violentas, y es aquí cuando recuerdas que realmente no sabes nadar, y si el barco se voltea este probablemente sería tu final, aunque por otro lado, viajar en bote es bastante más rápido y efectivo</span></p>
         <br><br>
     </div>
 <div class="container">

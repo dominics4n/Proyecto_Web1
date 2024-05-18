@@ -44,9 +44,7 @@ if($count==1){
     echo'
     <div class="container">
         <h2 class="white-text"><span class="colortemporal">Bayas</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <p class="white-text textoaltura"><span class="colortemporal">Eliges las bayas, y por su buen sabor deduces que no son venenosas, lo que no sabes es que en realidad destruyendo tu hígado lentamente, probablemente no viviras mas de los 30 años, pero no es una muerte inmediata así que sigues felizmente por tu camino, empiezas a percibir una ligera niebla pero no le diste importancia, hasta que de un momento a otro te ves completamente cegado por la ahora increíblemente densa niebla, ahora sin vista, dependes de tus demás sentidos para continuar, intentas seguir en el camino pero comienzas a escuchar agua fluir a lo lejos, probablemente es más fácil seguir el agua a intentar seguir el camino, pero no estas seguro de que seguirla te acercará a tu destino</span></p>
         <br><br>
     </div>
     ';
@@ -54,10 +52,8 @@ if($count==1){
 }else{
     echo'
     <div class="container">
-        <h2 class="white-text"><span class="colortemporal">noBayas</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <h2 class="white-text"><span class="colortemporal">Hongos</span></h2>
+        <p class="white-text textoaltura"><span class="colortemporal">Haz escuchado historias de hongos que te vuelven más grande o que incluso te dan una vida extra, y aunque no sabes qué significa eso emocionado comienzas a comer tantos hongos como puedas, tristemente el único efecto que tienen es causarte un daño hepático irreversible, y también te hacen alucinar una espesa niebla por alguna razón,con la vista ahora bloqueada por la niebla, dependes de tus demás sentidos para continuar, intentas seguir en el camino pero comienzas a escuchar agua fluir a lo lejos, probablemente es más fácil seguir el agua a intentar seguir el camino, pero no estas seguro de que seguirla te acercará a tu destino</span></p>
         <br><br>
     </div>
     ';

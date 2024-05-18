@@ -53,8 +53,8 @@ if($count==1){
         </nav>
     </header>
     <div class="container">
-        <h2 class="white-text"><span class="colortemporal">Escalar Muralla</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">MORTIS</span></p>
+        <h2 class="white-text"><span class="colortemporal">MORTIS</span></h2>
+        <p class="white-text textoaltura"><span class="colortemporal">Pones en acción tus genes mexicanos y comienzas a escalar la muralla con facilidad, sin mucho esfuerzos lo	gras alcanzar la cima, pero al hacerlo contemplas con horror la presencia de tu archienemigo mortal, botellas de vidrio rotas, su sola presencia te hace entrar en pánico y resbalas, al otro dia tu cuerpo es encontrado y es deportado a latinoamérica</span></p>
         <br><br>
     </div>
 ';
@@ -76,9 +76,7 @@ if($count==1){
     </header>
     <div class="container">
         <h2 class="white-text"><span class="colortemporal">Rodear muralla</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <p class="white-text textoaltura"><span class="colortemporal">Después de rodear por un rato encuentras una entrada especial para comerciantes, hay tanto movimiento con guardias descargando cargamento que nadie nota que entraste al castillo, después de investigar un poco los alrededores te encuentras con un uniforme de guardia abandonado, podrías usarlo para poder caminar libremente por el castillo, pero es bastante estorboso así que probablemente no podrás ser sigiloso de ser necesario</span></p>
         <br><br>
     </div>
 <div class="container">

@@ -44,9 +44,7 @@ if($count==1){
     </header>
     <div class="container">
         <h2 class="white-text"><span class="colortemporal">Cocodrilo Legendario</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <p class="white-text textoaltura"><span class="colortemporal">Comienzas a rodear el pantano, y los cocodrilos parecen no estar interesados en tu presencia, por lo que sigues confiadamente, con tanta confianza que dejas de ver donde pisas y en un mal paso aplastas una cola blanca, has molestado al legendario cocodrilo gigante albino, muchos piensan que es tan solo una leyenda, pero aqui esta enfrente de ti, a punto de comerte, podrías intentar salir corriendo, o enfrentar tu destino e intentar pelear</span></p>
         <br><br>
     </div>
 <div class="container">
@@ -102,9 +100,7 @@ if($count==1){
     </header>
     <div class="container">
         <h2 class="white-text"><span class="colortemporal">Puente</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <p class="white-text textoaltura"><span class="colortemporal">La vida es un riesgo, comienzas a atravesar el puente hasta que este se divide en dos, aunque estructuralmente parecen iguales, un lado parece estar recubierto de oro, mientras que el otro sigue siendo de madera, aunque te parece algo impráctico, tal vez el lado con oro es mejor porque… porque tiene oro?</span></p>
         <br><br>
     </div>
 <div class="container">

@@ -44,9 +44,7 @@ if($count==1){
     echo'
     <div class="container">
         <h2 class="white-text"><span class="colortemporal">Caballo infinito</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <p class="white-text textoaltura"><span class="colortemporal">Después de estar atrapado en el bucle infinito por un tiempo, y no encontrar ninguna salida o fuente de alimento, tomas la difícil decisión de sacrificar a tu nuevo caballo para poder sobrevivir con su carne, acaso esto será el comerciante castigandote por no ayudarlo?</span></p>
         <br><br>
     </div>
 ';
@@ -54,9 +52,7 @@ if($count==1){
     echo'
     <div class="container">
     <h2 class="white-text"><span class="colortemporal">Soledad infinito</span></h2>
-    <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-    Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-    Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+    <p class="white-text textoaltura"><span class="colortemporal"> Una vez consciente de lo que está pasando, te das cuenta de que la hora del dia es una tarde perpetua, y no sientes la necesidad de comer o tomar agua</span></p>
     <br><br>
 </div>
 ';

@@ -44,9 +44,7 @@ if($count==1){
     </header>
     <div class="container">
         <h2 class="white-text"><span class="colortemporal">Comprar</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <p class="white-text textoaltura"><span class="colortemporal">Después de un acoso constante, finalmente cedes y utilizas lo último de tu dinero para comprar un abrelatas que se rompe al primer uso, derrotado, cruzas el puente y sigues con tu camino, pero hay algo que no te gusta a cerca de él, y ya sabes que fue lo que paso la ultima vez que ignoraste a tu sentido común</span></p>
         <br><br>
     </div>
 <div class="container">
@@ -102,9 +100,7 @@ if($count==1){
     </header>
     <div class="container">
         <h2 class="white-text"><span class="colortemporal">Golpear Vendedor</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <p class="white-text textoaltura"><span class="colortemporal">Intentas explicarle al vendedor que no tienes dinero para comprarle nada, pero este sigue insistiendo, después de 30 minutos, al darse cuenta de que no le vas a comprar nada, este se enoja por haberlo hecho perder el tiempo y comienza a atacarte físicamente, esto lleva a una pelea en la que accidentalmente lo lanzas del puente, y en la caída se rompe el cuello, aunque intentas lamentarte realmente la sociedad no perdió nada de valor, e incluso conseguiste quedarte con su caballo, sigues con tu camino, pero hay algo que no te gusta a cerca de él, y ya sabes que fue lo que paso la ultima vez que ignoraste a tu sentido común</span></p>
         <br><br>
     </div>
 <div class="container">

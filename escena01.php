@@ -52,9 +52,7 @@ if($count==1){
 echo'
     <div class="container">
         <h2 class="white-text"><span class="colortemporal">Escena 1</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <p class="white-text textoaltura"><span class="colortemporal">Después de caminar un poco, te encuentras con dos caminos diferentes, uno atraviesa el bosque, mientras que el otro te lleva hacia una llanura, aunque el camino de la llanura es el más rápido y directo, también implica la posibilidad de encontrarte con tus enemigos mortales, vendedores ambulantes, realmente estás dispuesto a tomar ese riesgo?</span></p>
         <br><br>
     </div>
 <div class="container">

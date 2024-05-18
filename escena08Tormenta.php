@@ -53,8 +53,8 @@ if($count==1){
         </nav>
     </header>
     <div class="container">
-        <h2 class="white-text"><span class="colortemporal">Tormenta</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">MORTIS</span></p>
+        <h2 class="white-text"><span class="colortemporal">MORTIS</span></h2>
+        <p class="white-text textoaltura"><span class="colortemporal">Intentas bajar rápidamente de la montaña para evitar la tormenta, pero esta aumenta en potencia rápidamente y antes de que te des cuenta todo esta completamente balnco, sin mucha visibilidad inevitablemente caes ante las temperaturas extremas, y tu cuerpo permanece congelado perpetuamente en un lado de la montaña, el cual será utilizado por futuros alpinistas como punto de referencia a la hora de escalar la montaña</span></p>
         <br><br>
     </div>
 ';
@@ -76,9 +76,7 @@ if($count==1){
     </header>
     <div class="container">
         <h2 class="white-text"><span class="colortemporal">Cueva</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <p class="white-text textoaltura"><span class="colortemporal">Tomas refugio en la cueva, la cual te das cuenta de que es bastante profunda, te adentras en ella sin pensarlo mucho, hasta que cuando te das cuenta está completamente oscuro y no puedes distinguir nada, bajo estas condiciones te ves obligado a seguir a tus sentidos, puedes sentir una fuerte humedad hacia un lado de la cueva, mientras que una leve brisa sopla desde el otro lado</span></p>
         <br><br>
     </div>
 <div class="container">

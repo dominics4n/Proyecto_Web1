@@ -55,8 +55,8 @@ if($count==1){
         </nav>
     </header>
     <div class="container">
-        <h2 class="white-text"><span class="colortemporal">Titanic 2</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">MORTIS</span></p>
+        <h2 class="white-text"><span class="colortemporal">MORTIS</span></h2>
+        <p class="white-text textoaltura"><span class="colortemporal">No estás listo para terminar con la diversión así que te quedas en el barco, rápidamente el río se expande a lo ancho, y es cuando te das cuenta de que la razón por la que no parecía haber rápidos delante, es por que no los hay, ni tampoco rio, solo una cascada de 20 metros, intentas remar para alejarte de ella o alcanzar una orilla pero ya es demasiado tarde, tan pronto caes desapareces entre toneladas de agua y tu cuerpo jamás es encontrado</span></p>
         <br><br>
     </div>
 ';
@@ -78,9 +78,7 @@ if($count==1){
     </header>
     <div class="container">
         <h2 class="white-text"><span class="colortemporal">Dejar barco</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <p class="white-text textoaltura"><span class="colortemporal">Bajas del barco y te das cuenta de que puedes ver el castillo a lo lejos, no estas seguro si deberias de caminar directamente hacia el volcán, o si deberías de seguir el río en busca de un punto de entrada secreto</span></p>
         <br><br>
     </div>
 <div class="container">

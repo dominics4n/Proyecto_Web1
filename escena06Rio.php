@@ -44,9 +44,7 @@ if($count==1){
     </header>
     <div class="container">
         <h2 class="white-text"><span class="colortemporal">Navegar Barco</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <p class="white-text textoaltura"><span class="colortemporal">No le tienes miedo al éxito, así que continúas navegando tu barca, en cuestión de segundos te encuentras en mitad de unos rápidos que sacuden violentamente tu barca, por un momento incluso esta se sale del río, atraviesa tierra a toda velocidad se vuelve a incorporar al río de un salto, nunca te habías sentido tan vivo, el agua finalmente se calma y no parece que haya más rápidos por delante, por lo que este sería el momento perfecto para bajar del barco</span></p>
         <br><br>
     </div>
 <div class="container">
@@ -101,10 +99,8 @@ if($count==1){
         </nav>
     </header>
     <div class="container">
-        <h2 class="white-text"><span class="colortemporal">Golpear Vendedor</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <h2 class="white-text"><span class="colortemporal">Dejar barco</span></h2>
+        <p class="white-text textoaltura"><span class="colortemporal">Dejas tu barco solo para encontrarte que tanto el suelo como la vegetación de ese lugar está completamente muerto y aunque su color gris no es demasiado alentador, en realidad son perfectos para iniciar una fogata, y después de ese emocionante en barco probablemente te vendría bien tomar un descanso</span></p>
         <br><br>
     </div>
 <div class="container">

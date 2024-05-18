@@ -57,8 +57,8 @@ if($count==1){
         </nav>
     </header>
     <div class="container">
-        <h2 class="white-text"><span class="colortemporal">Golpear Bandido</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">MORTIS    </span></p>
+        <h2 class="white-text"><span class="colortemporal">MORTIS</span></h2>
+        <p class="white-text textoaltura"><span class="colortemporal">No estás dispuesto a entregar tu mochila, así que sacas tu espada dispuesto a pelear, pero en el momento en el que la levantas ya te han navajeado 17 veces, sin mucho más que hacer colapsas en el suelo y te conviertes en una estadística de crimen más</span></p>
         <br><br>
     </div>
 ';
@@ -80,9 +80,7 @@ if($count==1){
     </header>
     <div class="container">
         <h2 class="white-text"><span class="colortemporal">Negociar</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <p class="white-text textoaltura"><span class="colortemporal">Después un arduo debate con los bandidos, consigues negociar tu vida a cambio de  tan solo todos tus artículos personales, un buen trato, con la mochila más ligera continuas con tu viaje hasta llegar a una zona donde tanto el suelo como la vegetación estan completamente muertos y aunque su color gris no es demasiado alentador, en realidad son perfectos para iniciar una fogata, y después de ese emocionante en barco probablemente te vendría bien tomar un descanso</span></p>
         <br><br>
     </div>
 <div class="container">

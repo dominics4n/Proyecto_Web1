@@ -53,8 +53,8 @@ if($count==1){
         </nav>
     </header>
     <div class="container">
-        <h2 class="white-text"><span class="colortemporal">Seguir rio</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Final Secreto 3</span></p>
+        <h2 class="white-text"><span class="colortemporal">Episodio de playa</span></h2>
+        <p class="white-text textoaltura"><span class="colortemporal">Decides seguir el río, y después de unas horas te das cuenta de que solo te has alejado más del volcán, ahora te preguntas, ¿por qué alguien tendría una entrada secreta a su castillo en un rio? excelente pregunta, pero es muy tarde para dar la vuelta, continuas siguiendo el río por hora, tal vez días, hasta que eventualmente llegas a una playa, parece estar tan alejada del castillo del rey que probablemente nadie vendrá a cobrarte impuestos, así que te detienes y decides instalarte ahí, viviendo pacíficamente y eventualmente olvidando que alguna vez le juraste venganza al Rey</span></p>
         <br><br>
     </div>
 ';
@@ -75,10 +75,8 @@ if($count==1){
         </nav>
     </header>
     <div class="container">
-        <h2 class="white-text"><span class="colortemporal">Golpear Vendedor</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <h2 class="white-text"><span class="colortemporal">Seguir castillo</span></h2>
+        <p class="white-text textoaltura"><span class="colortemporal">Conforme te adentras en el volcán encuentras una entrada especial para comerciantes, hay tanto movimiento con guardias descargando cargamento que nadie nota que entraste al castillo, después de investigar un poco los alrededores te encuentras con un uniforme de guardia abandonado, podrías usarlo para poder caminar libremente por el castillo, pero es bastante estorboso así que probablemente no podrás ser sigiloso de ser necesario</span></p>
         <br><br>
     </div>
 <div class="container">

@@ -63,8 +63,8 @@ if($count==1){
         </nav>
     </header>
     <div class="container">
-        <h2 class="white-text"><span class="colortemporal">Intenta Correr</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">MORTIS</span></p>
+        <h2 class="white-text"><span class="colortemporal">MORTIS</span></h2>
+        <p class="white-text textoaltura"><span class="colortemporal">Intentas correr pero el lobo te alcanza rápidamente, cuando termina solo queda tu mochila al lado del campamento, la que servirá de carnada para el próximo viajero que pase</span></p>
         <br><br>
     </div>
     </div>
@@ -91,9 +91,7 @@ if($count==1){
             </header>
             <div class="container">
                 <h2 class="white-text"><span class="colortemporal">Ataca</span></h2>
-                <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-                Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-                Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+                <p class="white-text textoaltura"><span class="colortemporal">Tomas tu espada y te preparas para atacar, el lobo te rasguña un poco pero logras vencerlo, continuas con lo que estabas haciendo y aprovechas la carne del lobo, es comer o ser comido, escuchas un río a lo lejos asi que te acercas a él para lavarte las manos cuando encuentras una barca</span></p>
                 <br><br>
             </div>
         <div class="container">
@@ -140,9 +138,7 @@ if($count==1){
     </header>
     <div class="container">
         <h2 class="white-text"><span class="colortemporal">No ataca</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <p class="white-text textoaltura"><span class="colortemporal">Intentas golpear al lobo a distancia con un hueso, pero este lo atrapa fácilmente con la boca y te lo regresa, parece pensar que están jugando, decides compartir de la comida que encontraste, lo que hace que te empieze a seguir, eventualmente encuentras un río y una barca, que puedes usar para viajar por el río, estas subiendo a la barca cuando volteas a ver al lobo, que parece confundido por tu partida</span></p>
         <br><br>
     </div>
 <div class="container">

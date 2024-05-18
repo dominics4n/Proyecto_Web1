@@ -1,4 +1,4 @@
-v<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -56,7 +56,7 @@ if($count==1){
     </header>
     <div class="container">
         <h2 class="white-text"><span class="colortemporal">Magnate de pieles</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Final Secreto 1</span></p>
+        <p class="white-text textoaltura"><span class="colortemporal">Ignoras tus miedos y te preparas para pelear, sacas tu espada y de un solo movimiento cortas su cabeza, al parecer eres sorprendentemente bueno en esto, y te das cuenta que podrías utilizar tus habilidades recién descubiertas para ganar dinero, así, abandonas la venganza y comienzas tu nuevo emprendimiento en el negocio de las pieles legendarias</span></p>
         <br><br>
     </div>
 ';
@@ -78,9 +78,8 @@ if($count==1){
     </header>
     <div class="container">
         <h2 class="white-text"><span class="colortemporal">Correr</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <p class="white-text textoaltura"><span class="colortemporal">No piensas morir aqui, asi que comienzas a correr, y aunque el cocodrilo legendario intenta seguirle, no es rival para tus crocs en sport mode, valiosas reliquias del mundo pasado. Eventualmente te detienes enfrente de un rio, en lo que parece ser la base del volcán donde se encuentra el castillo del rey. No estas seguro si deberias de caminar directamente hacia el volcán, o si deberías de seguir el río en busca de un punto de entrada secreto
+        </span></p>
         <br><br>
     </div>
 <div class="container">

@@ -55,8 +55,8 @@ if($count==1){
         </nav>
     </header>
     <div class="container">
-        <h2 class="white-text"><span class="colortemporal">Puente Falso</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">MORTIS</span></p>
+        <h2 class="white-text"><span class="colortemporal">Mortis</span></h2>
+        <p class="white-text textoaltura"><span class="colortemporal">Si tiene oro seguramente es mejor, te dices a ti mismo conforme atraviesas ese camino, pero la madera no puede resistir tu peso y el del oro a la vez, por lo que el puente colapsa, caes al agua y en cuestión de segundos te ves completamente rodeado por cocodrilos y eres rápidamente devorado, pero al menos puedes morir feliz sabiendo que tu carne algo envenenada por la comida anterior también le ha causado daño hepático a los cocodrilos, por lo que tampoco vivirán más de 30 años</span></p>
         <br><br>
     </div>
 ';
@@ -77,10 +77,8 @@ if($count==1){
         </nav>
     </header>
     <div class="container">
-        <h2 class="white-text"><span class="colortemporal">Golpear Vendedor</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <h2 class="white-text"><span class="colortemporal">Puente normal</span></h2>
+        <p class="white-text textoaltura"><span class="colortemporal">Decides tomar el puente normal por que un puente de oro a la mitad de un pantano te parece bastante sospechoso, a mitad del camino te encuentras con la choza de una bruja, que aunque no parece muy feliz de recibir visitantes, te felicita por tu humildad al no elegir el puente de oro e incluso cura tu daño hepático como premio, que agradable sujeto. Una vez cruzado el puente sigues el camino hasta encontrarte enfrente de un rio, en lo que parece ser la base del volcán donde se encuentra el castillo del rey</span></p>
         <br><br>
     </div>
 <div class="container">

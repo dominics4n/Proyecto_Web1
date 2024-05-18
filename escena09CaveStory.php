@@ -52,7 +52,7 @@ if($count==1){
     </header>
     <div class="container">
         <h2 class="white-text"><span class="colortemporal">Shangri-la</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Final secreto 4</span></p>
+        <p class="white-text textoaltura"><span class="colortemporal">Sigues la humedad hasta encontrar un rio subterráneo en el que resbalas accidentalmente, después de mucha sacudidas, te ves en mitad de una serie de pirámides secretas, con rocas brillantes azules a tu alrededor, mientras investigas el lugar accidentalmente accionó un mecanismo que hace que las pirámides reaccionan con las rocas azules, y de un momento a otro te ves transportado a una zona selvática en un lugar desconocido a mitad de un eclipse solar, aunque extrañamente, la luna no parece ser la misma de la tierra</span></p>
         <br><br>
     </div>
 ';
@@ -74,9 +74,7 @@ if($count==1){
     </header>
     <div class="container">
         <h2 class="white-text"><span class="colortemporal">Brisa</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <p class="white-text textoaltura"><span class="colortemporal">Sigues la brisa hasta finalmente encontrar una salida de la cueva, la cual convenientemente parece estar a mitad del volcán donde se encuentra el castillo del rey, encuentras un camino hacia lo que parece ser el corazón del volcán, aunque también podrías escalar hasta la cima de este para ver si hay algo interesante ahí</span></p>
         <br><br>
     </div>
 <div class="container">

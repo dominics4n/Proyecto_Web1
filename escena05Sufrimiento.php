@@ -44,14 +44,12 @@ if($count==1){
     </header>
     <div class="container">
         <h2 class="white-text"><span class="colortemporal">Vendedor</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <p class="white-text textoaltura"><span class="colortemporal">Ignoras tus sentidos y llegas al puente, solo para encontrarte con horror a un vendedor ambulante, el cual no pierde el tiempo y comienza a hostigante para que le compres algo </span></p>
         <br><br>
     </div>
 <div class="container">
 <div class="row">
-    <form action="escena06Pantano.php" method="post" class="col s10 offset-s1">
+    <form action="escena06PostVendedor.php" method="post" class="col s10 offset-s1">
     <div class="col s8 offset-s2">
         <br>
         <div class="row bordestemporal formtemporal">
@@ -102,9 +100,7 @@ if($count==1){
     </header>
     <div class="container">
         <h2 class="white-text"><span class="colortemporal">Rio</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <p class="white-text textoaltura"><span class="colortemporal">Decides escuchar a tus sentidos, lo que te lleva a un río, donde también encuentras convenientemente una barca con la que podrás viajar cómodamente a través de este, después de navegar por un rato las aguas empiezan a ponerse un poco violentas, y es aquí cuando recuerdas que realmente no sabes nadar, y si el barco se voltea este probablemente sería tu final, aunque por otro lado, viajar en bote es bastante más rápido y efectivo</span></p>
         <br><br>
     </div>
 <div class="container">

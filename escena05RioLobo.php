@@ -59,8 +59,8 @@ if($count==1){
         </nav>
     </header>
     <div class="container">
-        <h2 class="white-text"><span class="colortemporal">Barco con Lobo</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">MORTIS</span></p>
+        <h2 class="white-text"><span class="colortemporal">MORTIS</span></h2>
+        <p class="white-text textoaltura"><span class="colortemporal">Dejas subir al lobo contigo para que te acompañe en tu viaje, pero en cuanto la barca comienza a avanzar te das cuenta de que solo conoces al lobo desde hace 10 minutos y realmente no puedes confiar en él, pero no tienes mucho tiempo para preocuparte cuando el lobo te arranca la cara de una mordida</span></p>
         <br><br>
     </div>
 ';
@@ -82,9 +82,7 @@ if($count==1){
     </header>
     <div class="container">
         <h2 class="white-text"><span class="colortemporal">Rio</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <p class="white-text textoaltura"><span class="colortemporal">Te despides del lobo y continuas con tu viaje, después de navegar por un rato las aguas empiezan a ponerse un poco violentas, y es aquí cuando recuerdas que realmente no sabes nadar, y si el barco se voltea este probablemente sería tu final, aunque por otro lado, viajar en bote es bastante más rápido y efectivo</span></p>
         <br><br>
     </div>
 <div class="container">

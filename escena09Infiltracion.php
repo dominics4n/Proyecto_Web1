@@ -47,9 +47,7 @@ if($countamazon==1){
     </header>
     <div class="container">
         <h2 class="white-text"><span class="colortemporal">Finjir Entrega</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <p class="white-text textoaltura"><span class="colortemporal">Tomas la ultima botella de vino que produciste, y te preparas para fingir la entrega, te adentras en el castillo y al primer guardia que ves le exiges ver al rey, ya que tienes una entrega urgente para el, este no parece muy convencido así que tienes que motivarlo un poco</span></p>
         <br><br>
     </div>
 <div class="container">
@@ -106,9 +104,7 @@ if($countamazon==1){
     </header>
     <div class="container">
         <h2 class="white-text"><span class="colortemporal">Usar Sigilo</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <p class="white-text textoaltura"><span class="colortemporal">Comienzas a explorar el castillo en busca del rey, después de encontrar la sala del trono vacía, solo te queda explorar la torre más alta del castillo y la entrada a lo que parece ser el corazón del volcán, ¿donde se estará escondiendo el rey?</span></p>
         <br><br>
     </div>
         ';
@@ -131,9 +127,7 @@ if($countamazon==1){
     </header>
     <div class="container">
         <h2 class="white-text"><span class="colortemporal">Usar Disfraz</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <p class="white-text textoaltura"><span class="colortemporal">Comienzas a explorar el castillo en busca del rey, después de encontrar la sala del trono vacía, solo te queda explorar la torre más alta del castillo y la entrada a lo que parece ser el corazón del volcán, ¿donde se estará escondiendo el rey?</span></p>
         <br><br>
     </div>
         ';

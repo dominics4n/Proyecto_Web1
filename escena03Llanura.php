@@ -43,18 +43,14 @@ $count =mysqli_num_rows($resultado);
 if($count==1){
     echo'<div class="container">
     <h2 class="white-text"><span class="colortemporal">Sol</span></h2>
-    <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-    Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-    Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+    <p class="white-text textoaltura"><span class="colortemporal">Sigues caminando por el lado del sol para forjar carácter, llegas a un punto donde el camino se divide, uno sigue derecho hacia un puente, mientras que el otro claramente es un desvio de tu objetivo, pero en este hay mas sombra, tal vez sea mejor replantear tu posicion a cerca de la sombra</span></p>
     <br><br>
 </div>';
 }else{
     echo'
     <div class="container">
         <h2 class="white-text"><span class="colortemporal">noSol</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
+        <p class="white-text textoaltura"><span class="colortemporal">Como persona normal decides caminar por el camino de la sombrita para protegerse del sol, llegas a un punto donde el camino se divide, uno sigue derecho hacia un puente, mientras que el otro claramente es un desvío de tu objetivo, pero en este hay mas sombra, tal vez sea mejor replantear tu posición a cerca de la sombra</span></p>
         <br><br>
     </div>
     ';
