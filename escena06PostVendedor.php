@@ -22,7 +22,7 @@ WHERE nombre_usuario ='$_SESSION[clairo]'");
 
 /*eleccion escena 2 ramas*/
 $buscareleccion="SELECT * FROM IDpartida WHERE nombre_usuario ='$_SESSION[clairo]' 
-AND escena5 ='Cocodrilo Legendario'";
+AND escena5 ='Comprar'";
 
 $resultado = $conexion -> query($buscareleccion);
 $count =mysqli_num_rows($resultado);

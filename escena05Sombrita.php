@@ -49,7 +49,7 @@ if($count==1){
     </div>
 <div class="container">
 <div class="row">
-    <form action="escena06Pantano.php" method="post" class="col s10 offset-s1">
+    <form action="escena06Asalto.php" method="post" class="col s10 offset-s1">
     <div class="col s8 offset-s2">
         <br>
         <div class="row bordestemporal formtemporal">

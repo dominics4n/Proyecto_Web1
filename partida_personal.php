@@ -31,7 +31,7 @@
 require "conexion.php";
 mysqli_set_charset($conexion,'utf8');
 
-$consulta_sql="SELECT * FROM IDpartida";
+$consulta_sql="SELECT * FROM IDpartida WHERE nombre_usuario = $_POST['nombre_usuario']"; 
 
 $resultado = $conexion->query($consulta_sql);
 

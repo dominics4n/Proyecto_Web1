@@ -120,7 +120,7 @@ echo'
             <p>
                 <label>
                     <input type="radio" name="escena7" value="Ayudar Comerciante" required />
-                    <span class="white-text">Acampar</span>
+                    <span class="white-text">Ayudar Comerciante</span>
                 </label>
             </p>
         </div>
@@ -128,7 +128,7 @@ echo'
             <p>
             <label>
                 <input type="radio" name="escena7" value="Seguir Caminox2" />
-                <span class="white-text">Encontrar Muralla</span>
+                <span class="white-text">Seguir Caminox2</span>
             </label>
             </p>
         </div>
@@ -161,8 +161,8 @@ echo'
         <div class="col s12 center-align">
             <p>
                 <label>
-                    <input type="radio" name="escena7" value="Ayudar Comerciante" required />
-                    <span class="white-text">Acampar</span>
+                    <input type="radio" name="escena7" value="Seguir Caminox2" required />
+                    <span class="white-text">Seguir Caminox2</span>
                 </label>
             </p>
         </div>

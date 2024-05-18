@@ -68,7 +68,7 @@ echo'
             <p>
                 <label>
                     <input type="radio" name="escena9" value="Seguir Caminox4" required />
-                    <span class="white-text">Acampar</span>
+                    <span class="white-text">Seguir Caminox4</span>
                 </label>
             </p>
         </div>

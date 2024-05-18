@@ -31,7 +31,7 @@
 require "conexion.php";
 mysqli_set_charset($conexion,'utf8');
 
-$consulta_sql="SELECT * FROM IDpartida";
+$consulta_sql="SELECT * Encuesta_Opcional WHERE nombre_usuario =$_POST['nombre_usuario']";
 
 $resultado = $conexion->query($consulta_sql);
 
@@ -40,18 +40,10 @@ $count = mysqli_num_rows($resultado);
 echo "<table>
     <tr>
         <th>Usuario</th>
-        <th>Escena 1</th>
-        <th>Escena 2</th>
-        <th>Escena 3</th>
-        <th>Escena 4</th>
-        <th>Escena 5</th>
-        <th>Escena 6</th>
-        <th>Escena 7</th>
-        <th>Escena 8</th>
-        <th>Escena 9</th>
-        <th>Escena 10</th>
-        <th>Final</th>
-        <th>Estado</th>
+        <th>Correo</th>
+        <th>Videojuego Favorito</th>
+        <th>Cancion Favorita</th>
+        <th>Quote o algo nose</th>
     </tr>";
 
 if ( $count>0 ){
@@ -59,23 +51,15 @@ if ( $count>0 ){
     while( $row = mysqli_fetch_assoc($resultado)  ){
      echo "<tr>";
      echo"<td>". $row['nombre_usuario'] ."</td>";
-     echo"<td>". $row['escena1'] ."</td>";
-     echo"<td>". $row['escena2'] ."</td>";
-     echo"<td>". $row['escena3'] ."</td>";
-     echo"<td>". $row['escena4'] ."</td>";
-     echo"<td>". $row['escena5'] ."</td>";
-     echo"<td>". $row['escena6'] ."</td>";
-     echo"<td>". $row['escena7'] ."</td>";
-     echo"<td>". $row['escena8'] ."</td>";
-     echo"<td>". $row['escena9'] ."</td>";
-     echo"<td>". $row['escena10'] ."</td>";
-     echo"<td>". $row['Final'] ."</td>";
-     echo"<td>". $row['Estado'] ."</td>";
+     echo"<td>". $row['correo_usuario'] ."</td>";
+     echo"<td>". $row['vg_usuario'] ."</td>";
+     echo"<td>". $row['music_usuario'] ."</td>";
+     echo"<td>". $row['quote_usuario'] ."</td>";
      echo "</tr>";
     }
     echo "</table>";
 }else{
     echo"<h1 style='color:red' >Sin Ningun registro</h1>";
     }
-    echo "<h5><a href='soulkillertarget.php'>Eliminar partida</a></h5>";
+    echo "<h5><a href='soulkillertarget.php'>Eliminar Registro</a></h5>";
 ?>

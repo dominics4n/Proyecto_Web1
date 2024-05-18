@@ -8,6 +8,7 @@ USE `Proyecto_Web1`;
 
 CREATE TABLE `IDpartida`(
 `nombre_usuario` text not null,
+`color_usuario` text not null,
 `escena1` text not null,
 `escena2` text not null,
 `escena3` text not null,

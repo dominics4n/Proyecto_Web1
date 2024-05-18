@@ -14,43 +14,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
-<div class="iniciowp">
+<div class="indexwp">
     <header>
-        <nav class="nav-wrapper colorinicio">
+        <nav class="nav-wrapper colorindex">
             <div class="container">
-                <a href="#" class="brand-logo">Proyecto</a>
+                <a href="index.php" class="brand-logo">Proyecto</a>
                 <ul class="right">
                     <li> <a class="navclase" href="camino_personal.php"> Tu camino</a></li>
                     <li> <a class="navclase" href="camino_global.php"> Camino Global</a></li>
-                    <li> <a class="navclase" href="soulkillertarget"> Borrar Partida</a></li>
+                    <li> <a class="navclase" href="soulkillertarget.php"> Borrar Partida</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <div class="container">
-        <h2 class="white-text"><span class="colorinicio">Explicacion del proyecto</span></h2>
-        <p class="white-text textoaltura"><span class="colorinicio">El objetivo de este proyecto es demostrar la creacion de una base de datos y las tablas que la conforman, asi como el insertar, actualizar, visualizar y eliminar sus diferentes datos, todo esto aplicado para administrar la toma de diferentes deciciones dentro de una pequeña aventura de texto </span></p>
+        <h2 class="white-text"><span class="colorindex">Borrar datos en DB</span></h2>
         <br><br>
     </div>
     <div class="container">
         <div class="row">
-            <form action="escena1.php" method="post" class="col s8 offset-s2">
+            <form action="soulkiller.php" method="post" class="col s8 offset-s2 bordesindex formindex">
             <div class="col s10 offset-s1">
+                <h4 class="white-text center-align">Borrar Partida</h4>
                 <br>
-                <div class="row bordesinicio forminicio">
+                <div class="row" >
                     <div class="input-field">
                         <i class="material-icons prefix white-text">account_circle</i>
                         <input placeholder="XxX_USU4R10_XxX" name="nombre_usuario" id="nombre_usuario" type="text" class="white-text" required>
                         <label class="white-text" for="nombre_usuario">Nombre de Usuario</label>
                     </div>
                 </div>
-            </div>
+                <div class="row" >
+                    <div class="input-field">
+                        <input placeholder="Color favorito" name="nombre_usuario" id="nombre_usuario" type="text" class="white-text" required>
+                        <label class="white-text" for="nombre_usuario">Color favorito</label>
+                    </div>
+                </div>
                 <div class="row center-align">
-                    <button class="btn waves-effect waves-light botoninicio" type="submit" name="action">Continuar
-                        <i class="material-icons right">play_arrow</i>
+                    <button class="btn waves-effect waves-light botonindex" type="submit" name="action">Submit
+                        <i class="material-icons right">send</i>
                     </button>
                 </div>
                 <br>
+            </div>
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <form action="soulkiller.php" method="post" class="col s8 offset-s2 bordesindex formindex">
+            <div class="col s10 offset-s1">
+                <h4 class="white-text center-align">Borrar Datos Encuesta Extra</h4>
+                <br>
+                <div class="row" >
+                    <div class="input-field">
+                        <i class="material-icons prefix white-text">account_circle</i>
+                        <input placeholder="XxX_USU4R10_XxX" name="nombre_usuario" id="nombre_usuario" type="text" class="white-text" required>
+                        <label class="white-text" for="nombre_usuario">Nombre de Usuario</label>
+                    </div>
+                </div>
+                <div class="row center-align">
+                    <button class="btn waves-effect waves-light botonindex" type="submit" name="action">Submit
+                        <i class="material-icons right">send</i>
+                    </button>
+                </div>
+                <br>
+            </div>
             </form>
         </div>
     </div>
@@ -59,8 +88,3 @@
     <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 </html>
-<img src="media/okthenlistenplease.jpg">
-<img src="media/cyberworld.jpg">
-<img src="media/mikuhouse.jpg">
-<img src="media/simsprank.jpg">
-<img src="media/yogurting.jpg">

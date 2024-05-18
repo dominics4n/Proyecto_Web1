@@ -112,8 +112,8 @@ if($count==1){
         <div class="col s6 center-align">
             <p>
                 <label>
-                    <input type="radio" name="escena6" value="Puente Falso" required />
-                    <span class="white-text">Puente Falso</span>
+                    <input type="radio" name="escena6" value="Puente Oro" required />
+                    <span class="white-text">Puente Oro</span>
                 </label>
             </p>
         </div>

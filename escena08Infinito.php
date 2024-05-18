@@ -51,6 +51,48 @@ if($count==1){
         <p class="white-text textoaltura"><span class="colortemporal">Aceptas la oferta del comerciante y este te lleva al castillo, una vez dentro hay tanto movimiento con guardias descargando cargamento que nadie nota que entraste al castillo, después de investigar un poco los alrededores te encuentras con un uniforme de guardia abandonado, podrías usarlo para poder caminar libremente por el castillo, pero es bastante estorboso así que probablemente no podrás ser sigiloso de ser necesario. Tambien podrias fingir que tienes una entrega para el rey, y así hacer que el se acerque a ti</span></p>
         <br><br>
     </div>
+    <div class="container">
+<div class="row">
+    <form action="escena09Infiltracion.php" method="post" class="col s10 offset-s1">
+    <div class="col s8 offset-s2">
+        <br>
+        <div class="row bordestemporal formtemporal">
+        <div class="col s4 center-align">
+            <p>
+                <label>
+                    <input type="radio" name="escena8" value="Finjir Entrega" required />
+                    <span class="white-text">Finjir Entrega</span>
+                </label>
+            </p>
+        </div>
+        <div class="col s4 center-align">
+            <p>
+            <label>
+                <input type="radio" name="escena8" value="Usar Sigilo" />
+                <span class="white-text">Usar Sigilo</span>
+            </label>
+            </p>
+        </div>
+        <div class="col s4 center-align">
+            <p>
+            <label>
+                <input type="radio" name="escena8" value="Usar Disfraz" />
+                <span class="white-text">Usar Disfraz</span>
+            </label>
+            </p>
+        </div>
+        </div>
+    </div>
+    <div class="row center-align">
+    <div class="col s8 offset-s2">
+        <button class="btn waves-effect waves-light botontemporal" type="submit" name="action">Continuar
+            <i class="material-icons right">play_arrow</i>
+        </button>
+    </div>
+    </div>
+    </form>
+    </div>
+    </div>
 ';
 }else{
 echo'
@@ -68,13 +110,6 @@ echo'
             </div>
         </nav>
     </header>
-    <div class="container">
-        <h2 class="white-text"><span class="colortemporal">Seguir Camino x2</span></h2>
-        <p class="white-text textoaltura"><span class="colortemporal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis atque earum expedita? Necessitatibus qui, vitae illum eaque et saepe. Saepe illum magni enim? Voluptatum corrupti recusandae, quas voluptas beatae nulla?
-        Inventore enim, nostrum labore quod dicta cum voluptate numquam amet. Modi tempore voluptatem ipsa nostrum sequi laborum assumenda magni magnam, repellendus veritatis? Repellat porro consequuntur, aperiam at aliquam saepe laborum.
-        Atque iste ducimus ipsa, animi perspiciatis enim corporis dolor assumenda alias voluptatum repellat doloribus rerum distinctio ullam dolore aspernatur voluptates quaerat a. Similique reprehenderit vitae itaque ad optio quibusdam laudantium? </span></p>
-        <br><br>
-    </div>
 ';
     if($countgolpe==1){
         echo'
@@ -105,7 +140,7 @@ echo'
             <p>
                 <label>
                     <input type="radio" name="escena8" value="Seguir Caminox3" required />
-                    <span class="white-text">Acampar</span>
+                    <span class="white-text">Seguir Caminox3</span>
                 </label>
             </p>
         </div>

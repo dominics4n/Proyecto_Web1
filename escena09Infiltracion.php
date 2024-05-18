@@ -21,9 +21,9 @@ mysqli_query($conexion, "UPDATE IDpartida SET escena8='$_POST[escena8]'
 WHERE nombre_usuario ='$_SESSION[clairo]'");
 
 /*eleccion escena 2 ramas*/
-$buscareleccion="SELECT * FROM IDpartida WHERE nombre_usuario ='$_SESSION[clairo]' 
+$buscareleccion="SELECT * FROM IDpartida WHERE nombre_usuario ='$_SESSION[clairo]'
 AND escena8 ='Usar Sigilo'";
-$buscaramazon="SELECT * FROM IDpartida WHERE nombre_usuario ='$_SESSION[clairo]'
+$buscaramazon="SELECT * FROM IDpartida WHERE nombre_usuario ='$_SESSION[clairo]' 
 AND escena8 ='Finjir Entrega'";
 $resultadoamazon = $conexion -> query($buscaramazon);
 $resultado = $conexion -> query($buscareleccion);
@@ -151,7 +151,7 @@ if($countamazon==1){
         <div class="col s6 center-align">
             <p>
             <label>
-                <input type="radio" name="escena6" name="escena9" value="Corazon Volcan" />
+                <input type="radio" name="escena9" value="Corazon Volcan" />
                 <span class="white-text">Corazon Volcan</span>
             </label>
             </p>

@@ -78,11 +78,11 @@ echo'
     <div class="col s8 offset-s2">
         <br>
         <div class="row bordestemporal formtemporal">
-        <div class="col s6 center-align">
+        <div class="col s12 center-align">
             <p>
                 <label>
                     <input type="radio" name="escena10" value="Seguir Caminox5" required />
-                    <span class="white-text">Navegar Barco x2</span>
+                    <span class="white-text">Seguir Caminox5</span>
                 </label>
             </p>
         </div>
