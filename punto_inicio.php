@@ -28,7 +28,7 @@
         </nav>
     </header>
     <div class="container">
-        <h2 class="white-text"><span class="colorinicio">Explicacion del proyecto</span></h2>
+        <h2 class="white-text"><span class="colorinicio">Inicio</span></h2>
         <p class="white-text textoaltura"><span class="colorinicio">Después de una excelente cosecha estás listo para continuar con nuevas ideas para crear más vinos artesanales, sin embargo el Rey tiene otros planes, y al ver tu éxito en la temporada decide aumentar un 3000% tus impuestos, lo que rápidamente te obliga a cerrar el viñedo y vender sus tierras, ahora sin nada que perder, emprendes un viaje hacia las tierras del Rey para buscar venganza.</span></p>
         <br><br>
     </div>
@@ -42,11 +42,8 @@
                         <input placeholder="XxX_USU4R10_XxX" name="nombre_usuario" id="nombre_usuario" type="text" class="white-text" required>
                         <label class="white-text" for="nombre_usuario">Nombre de Usuario</label>
                     </div>
-                </div>
-                <div class="row" >
                     <div class="input-field">
-                        <i class="material-icons prefix white-text">account_circle</i>
-                        <input placeholder="Color favorito" name="color_usuario" id="color_usuario" type="text" class="white-text" required>
+                        <input placeholder="Color favorito (sera tu contraseña para borrar partida)" name="color_usuario" id="color_usuario" type="text" class="white-text" required>
                         <label class="white-text" for="nombre_usuario">Color favorito</label>
                     </div>
                 </div>

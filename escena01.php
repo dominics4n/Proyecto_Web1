@@ -15,10 +15,13 @@
 </head>
 <?php
 include "conexion.php";
-
 $sesionusuario = $_POST['nombre_usuario'];
+
 session_start();
 $_SESSION['clairo'] = $sesionusuario;
+
+mysqli_query($conexion, "UPDATE IDpartida SET color_usuario='$_POST[color_usuario]'
+WHERE nombre_usuario ='$_SESSION[clairo]'");
 
 $buscarpartida="SELECT * FROM  IDpartida WHERE nombre_usuario ='$_POST[nombre_usuario]'";
 $resultado = $conexion -> query($buscarpartida);

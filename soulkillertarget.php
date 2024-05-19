@@ -40,13 +40,13 @@
                 <div class="row" >
                     <div class="input-field">
                         <i class="material-icons prefix white-text">account_circle</i>
-                        <input placeholder="XxX_USU4R10_XxX" name="nombre_usuario" id="nombre_usuario" type="text" class="white-text" required>
+                        <input placeholder="XxX_USU4R10_XxX" name="nombre_usuario" type="text" class="white-text" required>
                         <label class="white-text" for="nombre_usuario">Nombre de Usuario</label>
                     </div>
                 </div>
                 <div class="row" >
                     <div class="input-field">
-                        <input placeholder="Color favorito" name="color_usuario" id="color_usuario" type="text" class="white-text" required>
+                        <input placeholder="Color favorito" name="color_usuario" type="text" class="white-text" required>
                         <label class="white-text" for="color_usuario">Color favorito</label>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
                 <div class="row" >
                     <div class="input-field">
                         <i class="material-icons prefix white-text">account_circle</i>
-                        <input placeholder="XxX_USU4R10_XxX" name="nombre_usuario" id="nombre_usuario" type="text" class="white-text" required>
+                        <input placeholder="XxX_USU4R10_XxX" name="nombre_usuario" type="text" class="white-text" required>
                         <label class="white-text" for="nombre_usuario">Nombre de Usuario</label>
                     </div>
                 </div>

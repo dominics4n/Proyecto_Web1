@@ -31,20 +31,21 @@
 require "conexion.php";
 mysqli_set_charset($conexion,'utf8');
 
-$consulta_sql="SELECT * Encuesta_Opcional WHERE nombre_usuario =$_POST['nombre_usuario']";
+$consulta_sql="SELECT * FROM Encuesta_Opcional 
+WHERE nombre_usuario = '$_POST[nombre_usuario]'";
 
 $resultado = $conexion->query($consulta_sql);
 
 $count = mysqli_num_rows($resultado); 
  
-echo "<table>
+echo '<table class="bordesindex formindex white-text">
     <tr>
         <th>Usuario</th>
         <th>Correo</th>
         <th>Videojuego Favorito</th>
         <th>Cancion Favorita</th>
         <th>Quote o algo nose</th>
-    </tr>";
+    </tr>';
 
 if ( $count>0 ){
     //aqui se pintarian los registro de la DB
@@ -61,5 +62,5 @@ if ( $count>0 ){
 }else{
     echo"<h1 style='color:red' >Sin Ningun registro</h1>";
     }
-    echo "<h5><a href='soulkillertarget.php'>Eliminar Registro</a></h5>";
+    echo '<h5><span class="colorindex"><a href="soulkillertarget.php">Eliminar Registro</a></span></h5>';
 ?>

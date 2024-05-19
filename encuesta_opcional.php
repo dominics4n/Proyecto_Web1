@@ -1,8 +1,8 @@
 <?php
 
-include "./conexion.php";
+include "conexion.php";
 /*busca si ya hay una partida llamada igual*/
-$buscarpartida="SELECT * FROM  	Encuesta_Opcional WHERE nombre_usuario ='$_POST[nombre_usuario]'";
+$buscarpartida="SELECT * FROM Encuesta_Opcional WHERE nombre_usuario ='$_POST[nombre_usuario]'";
 $resultado = $conexion -> query($buscarpartida);
 $count =mysqli_num_rows($resultado);
 

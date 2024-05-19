@@ -37,7 +37,7 @@ $resultado = $conexion->query($consulta_sql);
 
 $count = mysqli_num_rows($resultado); 
  
-echo "<table>
+echo '<table table class="bordesindex formindex white-text">
     <tr>
         <th>Usuario</th>
         <th>Escena 1</th>
@@ -52,7 +52,7 @@ echo "<table>
         <th>Escena 10</th>
         <th>Final</th>
         <th>Estado</th>
-    </tr>";
+    </tr>';
 
 if ( $count>0 ){
     //aqui se pintarian los registro de la DB
@@ -77,5 +77,5 @@ if ( $count>0 ){
 }else{
     echo"<h1 style='color:red' >Sin Ningun registro</h1>";
     }
-    echo "<h5><a href='soulkillertarget.php'>Eliminar partida</a></h5>";
+    echo '<h5><span class="colorindex"><a href="soulkillertarget.php">Eliminar Registro</a></span></h5>';
 ?>
