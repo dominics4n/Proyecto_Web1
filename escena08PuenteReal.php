@@ -57,6 +57,12 @@ if($count==1){
         <p class="white-text textoaltura"><span class="colortemporal">Decides seguir el río, y después de unas horas te das cuenta de que solo te has alejado más del volcán, ahora te preguntas, ¿por qué alguien tendría una entrada secreta a su castillo en un rio? excelente pregunta, pero es muy tarde para dar la vuelta, continuas siguiendo el río por hora, tal vez días, hasta que eventualmente llegas a una playa, parece estar tan alejada del castillo del rey que probablemente nadie vendrá a cobrarte impuestos, así que te detienes y decides instalarte ahí, viviendo pacíficamente y eventualmente olvidando que alguna vez le juraste venganza al Rey</span></p>
         <br><br>
     </div>
+    <div class="center-align">
+    <img src="media/myhousebeach.jpg">
+    </div>
+    <div class="center-align">
+    <a class="waves-effect waves-light btn-large botonindex" href="index.php">End</a>
+    </div>
 ';
 }else{
     echo'

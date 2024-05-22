@@ -51,6 +51,12 @@ if($count==1){
         <p class="white-text textoaltura"><span class="colortemporal">Volteas a tu derecha y observas una roca cómicamente grande esperando un pequeño empujón para caer hacia el rey, asi que se lo das, la roca cae con tal fuerza y velocidad que al momento de impactar esta explota, no sin antes licuar completamente el cuerpo del rey, este suceso fue visto como un accidente de trabajo en el reino, lo que impulsó diversos sindicatos y reformas para asegurarse de que los trabajadores tuvieran condiciones de trabajo seguras y dignas</span></p>
         <br><br>
     </div>
+    <div class="center-align">
+    <img src="media/rockfall.gif">
+    </div>
+    <div class="center-align">
+    <a class="waves-effect waves-light btn-large botonindex" href="index.php">End</a>
+    </div>
 ';
 }else{
     mysqli_query($conexion, "UPDATE IDpartida SET Final='Assassins Creed'
@@ -76,6 +82,12 @@ if($count==1){
         <h2 class="white-text"><span class="colortemporal">Assasins Creed</span></h2>
         <p class="white-text textoaltura"><span class="colortemporal">Recuerdas tu entrenamiento en la orden de los asesinos y realizas un salto de fe, conforme ganas velocidad recuerdas que en realidad tú no recibiste entrenamiento de la orden y que eso solo fue una orbea de teatro que viste, pero ya es demasiado tarde, alcanzas la velocidad terminal pero logras controlar la dirección lo suficiente como para alcanzar al rey, en el momento en el que hacen contacto, sus cuerpos se obliteran mutuamente, dejando un pequeño cráter y una masa roja indistinguible en el suelo, valio la pena? valio cada maldito segundo</span></p>
         <br><br>
+    </div>
+    <div class="center-align">
+    <img src="media/dream_on.gif" width="500">
+    </div>
+    <div class="center-align">
+    <a class="waves-effect waves-light btn-large botonindex" href="index.php">End</a>
     </div>
 ';
 }

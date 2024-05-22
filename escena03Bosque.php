@@ -99,7 +99,7 @@ if($count==1){
         </nav>
     </header>
     <div class="container">
-        <h2 class="white-text"><span class="colortemporal">noHambre</span></h2>
+        <h2 class="white-text"><span class="colortemporal">Campamento</span></h2>
         <p class="white-text textoaltura"><span class="colortemporal">Investigando el campamento encuentras algo de comida y los huesos de alguien, enciendes la fogata para calentar la comida cuando te das cuenta que hay un lobo acercándose</span></p>
         <br><br>
     </div>
@@ -121,7 +121,7 @@ if($count==1){
             <p>
             <label>
                 <input type="radio" name="escena3" value="Lanza Hueso" />
-                <span class="white-text">Lanza Hueso</span>
+                <span class="white-text">Ataque a distancia</span>
             </label>
             </p>
         </div>
@@ -129,7 +129,7 @@ if($count==1){
             <p>
             <label>
                 <input type="radio" name="escena3" value="Ataca" />
-                <span class="white-text">Ataca</span>
+                <span class="white-text">Ataque directo</span>
             </label>
             </p>
         </div>

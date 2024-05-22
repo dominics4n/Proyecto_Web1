@@ -89,7 +89,7 @@ if($count==1){
             <p>
                 <label>
                     <input type="radio" name="escena8" value="Brisa" required />
-                    <span class="white-text">Brisa</span>
+                    <span class="white-text">Humedad</span>
                 </label>
             </p>
         </div>

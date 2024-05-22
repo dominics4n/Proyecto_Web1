@@ -159,7 +159,7 @@ if($count==1){
             <p>
             <label>
                 <input type="radio" name="escena4" value="Rio" />
-                <span class="white-text">Rio</span>
+                <span class="white-text">Dejar lobo</span>
             </label>
             </p>
         </div>

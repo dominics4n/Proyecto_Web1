@@ -59,6 +59,13 @@ if($count==1){
         <p class="white-text textoaltura"><span class="colortemporal">Si ya llegaste hasta aquí bien podrías llegar a la cima, continuas escalando, entre mas subes la montaña más olvidas tus deseos de venganza, hasta que finalmente logras ser el primer ser humano en alcanzar la punta de la montaña, te sientas un momento para contemplar las vistas, y con un nuevo propósito en la vida, comienzas a descender la montaña</span></p>
         <br><br>
     </div>
+    <div class="center-align">
+    <img src="media/celeste.png">
+    </div>
+    <div class="center-align">
+    <a class="waves-effect waves-light btn-large botonindex" href="index.php">End</a>
+    </div>
+
 ';
 }else{
     echo'

@@ -55,6 +55,12 @@ if($count==1){
         <p class="white-text textoaltura"><span class="colortemporal">Sigues la humedad hasta encontrar un rio subterráneo en el que resbalas accidentalmente, después de mucha sacudidas, te ves en mitad de una serie de pirámides secretas, con rocas brillantes azules a tu alrededor, mientras investigas el lugar accidentalmente accionó un mecanismo que hace que las pirámides reaccionan con las rocas azules, y de un momento a otro te ves transportado a una zona selvática en un lugar desconocido a mitad de un eclipse solar, aunque extrañamente, la luna no parece ser la misma de la tierra</span></p>
         <br><br>
     </div>
+    <div class="center-align">
+    <img src="media/shangri_la.jpg">
+    </div>
+    <div class="center-align">
+    <a class="waves-effect waves-light btn-large botonindex" href="index.php">End</a>
+    </div>
 ';
 }else{
     echo'

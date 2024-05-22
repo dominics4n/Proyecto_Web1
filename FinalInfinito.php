@@ -51,6 +51,12 @@ if($count==1){
         <p class="white-text textoaltura"><span class="colortemporal">Después de un tiempo te das cuenta de que realmente no necesitabas comer, tal vez no fue la mejor idea el comerte a tu única compañía antes de asegurarte siquiera de si tenías hambre, sin nada que hacer, continuas sentado a mitad de camino, meditando eternamente</span></p>
         <br><br>
     </div>
+    <div class="center-align">
+    <img src="media/bonfire.jpeg">
+    </div>
+    <div class="center-align">
+    <a class="waves-effect waves-light btn-large botonindex" href="index.php">End</a>
+    </div>
 ';
 }else{
     mysqli_query($conexion, "UPDATE IDpartida SET Final='Infinidad infinita'
@@ -76,6 +82,12 @@ if($count==1){
         <h2 class="white-text"><span class="colortemporal">Infinidad infinita</span></h2>
         <p class="white-text textoaltura"><span class="colortemporal">Con el tiempo empezaste a construir una casa a la orilla del camino, utilizando la materia prima infinita de tus alrededores, y lograste obtener una vida eterna sin preocupaciones ni impuestos. Tu casa se vuelve una leyenda entre los viajeros, quienes cuentan que si te pierdes en el camino equivocado durante el atardecer puedes llegar a una casa misteriosa a un lado del camino, la cual siempre desaparece en cuanto el sol se oculta</span></p>
         <br><br>
+    </div>
+    <div class="center-align">
+    <img src="media/oceanview_motel.jpg"width="1500">
+    </div>
+    <div class="center-align">
+    <a class="waves-effect waves-light btn-large botonindex" href="index.php">End</a>
     </div>
 ';
 }

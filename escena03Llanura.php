@@ -49,7 +49,7 @@ if($count==1){
 }else{
     echo'
     <div class="container">
-        <h2 class="white-text"><span class="colortemporal">noSol</span></h2>
+        <h2 class="white-text"><span class="colortemporal">Sombrita</span></h2>
         <p class="white-text textoaltura"><span class="colortemporal">Como persona normal decides caminar por el camino de la sombrita para protegerse del sol, llegas a un punto donde el camino se divide, uno sigue derecho hacia un puente, mientras que el otro claramente es un desvío de tu objetivo, pero en este hay mas sombra, tal vez sea mejor replantear tu posición a cerca de la sombra</span></p>
         <br><br>
     </div>

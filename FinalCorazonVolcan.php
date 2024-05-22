@@ -54,6 +54,12 @@ if($count==1){
         <p class="white-text textoaltura"><span class="colortemporal">No viniste hasta aquí para matarlo sigilosamente, así que de un grito le avisas de tu inminente ataque, después de una larga pelea logras posicionarte en un terreno elevado, y ahora con una clara ventaja cortas al rey de un solo espadazo por la mitad,cuando los guardias te encuentran con la mitad del cuerpo del rey parecen felices, después del impuesto a las espadas era cuestión de tiempo para que algo como esto pasara, y no solo te permiten irte, sino que te regalan una parte del tesoro del rey para que puedas comprar tu viñedo de vuelta</span></p>
         <br><br>
     </div>
+    <div class="center-align">
+    <img src="media/360noscope.gif">
+    </div>
+    <div class="center-align">
+    <a class="waves-effect waves-light btn-large botonindex" href="index.php">End</a>
+    </div>
 ';
 }else{
     if($countv2==1){
@@ -81,6 +87,12 @@ if($count==1){
                 <p class="white-text textoaltura"><span class="colortemporal">Corres a toda velocidad para empujar al rey, pero tu disfraz de guardia se atora entre tus piernas, lo que te hace salir volando, y aunque logras empujar al rey, él no es el único que cae a la lava, más tarde los guardias se dan cuenta de la desaparición del rey, y al no encontrar un cadáver llegan a la conclusión de que por alguna razón escapó, con este nuevo vacío de poder comienzan una serie de disputas internas que terminan en una gran guerra por todo el territorio para intentar mantenerse en el trono, lo que muy pronto dejaría inhabitable la zona</span></p>
                 <br><br>
             </div>
+            <div class="center-align">
+                <img src="media/lava.gif">
+                </div>
+                <div class="center-align">
+                <a class="waves-effect waves-light btn-large botonindex" href="index.php">End</a>
+            </div>
         ';
     }else{
         mysqli_query($conexion, "UPDATE IDpartida SET Final='Nuevo comienzo'
@@ -106,6 +118,12 @@ if($count==1){
                 <h2 class="white-text"><span class="colortemporal">Nuevo comienzo</span></h2>
                 <p class="white-text textoaltura"><span class="colortemporal">Comienzas a correr con todas tus fuerzas hacia el Rey, y de un solo empujón logras lanzarlo a la lava, donde es cocinado lentamente mientras roca fundida se queda pegada permanentemente a su piel, hasta que finalmente deja de gritar y se queda inmovil, realmente merecía un final tan violento? Probablemente si, antes de irte revisas las riquezas del Rey y encuentras las escrituras de un nuevo viñedo en el que puedes comenzar de nuevo </span></p>
                 <br><br>
+            </div>
+            <div class="center-align">
+                <img src="media/lava.gif">
+                </div>
+                <div class="center-align">
+                <a class="waves-effect waves-light btn-large botonindex" href="index.php">End</a>
             </div>
         ';
     }

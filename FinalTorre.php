@@ -51,6 +51,12 @@ if($count==1){
         <p class="white-text textoaltura"><span class="colortemporal">Tomas tu oportunidad de sabotear el plan del rey, siguiendo el manual, modificas el pentagrama para improvisar un hechizo explosivo utilizando la última botella de vino que produjiste, un poco de tu sangre y 70 kilogramos de C4, una vez hechos las modificaciones, escapas rápidamente del castillo y encuentras un buen lugar para disfrutar la vista</span></p>
         <br><br>
     </div>
+    <div class="center-align">
+    <img src="media/explosion.gif" width="700">
+    </div>
+    <div class="center-align">
+    <a class="waves-effect waves-light btn-large botonindex" href="index.php">End</a>
+    </div>
 ';
 }else{
     mysqli_query($conexion, "UPDATE IDpartida SET Final='El lado oscuro'

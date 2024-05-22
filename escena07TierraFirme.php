@@ -59,6 +59,12 @@ if($count==1){
         <p class="white-text textoaltura"><span class="colortemporal">Inicias la fogata y como lo esperabas, el material es perfecto para iniciar un fuego, tal vez demasiado perfecto, una sola chispa se aleja de tu fogata y prende el pasto seco del suelo, el cual rápidamente se extiende a los árboles cercanos, lo que ocasiona una reacción en cadena que causaría el mayor incendio forestal de la historia hasta la fecha, solo unas horas bastaron para que el incendio alcanzara las tierras del Rey, consumiendo por completo cualquier recurso natural a su alrededor, con una crisis de madera y comida, el reino rápidamente se vio envuelto en una revolución en la que se decapitó a toda la familia real, y terminó siendo abandonado poco tiempo después al no tener acceso a suelo fértil o materias primas básicas</span></p>
         <br><br>
     </div>
+    <div class="center-align">
+    <img src="media/ashbaby.png">
+    </div>
+    <div class="center-align">
+    <a class="waves-effect waves-light btn-large botonindex" href="index.php">End</a>
+    </div>
 ';
 }else{
     echo'

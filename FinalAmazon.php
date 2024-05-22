@@ -51,6 +51,12 @@ if($count==1){
         <p class="white-text textoaltura"><span class="colortemporal">Atacas al Rey en cuanto entra a la sala pero este logra defenderse, después de una larga pelea logras posicionarte en un terreno elevado, y ahora con una clara ventaja cortas al rey de un solo espadazo por la mitad,cuando los guardias te encuentran con la mitad del cuerpo del rey parecen felices, después del impuesto a las espadas era cuestión de tiempo para que algo como esto pasara, y no solo te permiten irte, sino que te regalan una parte del tesoro del rey para que puedas comprar tu viñedo de vuelta</span></p>
         <br><br>
     </div>
+    <div class="center-align">
+    <img src="media/360noscope.gif">
+    </div>
+    <div class="center-align">
+    <a class="waves-effect waves-light btn-large botonindex" href="index.php">End</a>
+    </div>
 ';
 }else{
     mysqli_query($conexion, "UPDATE IDpartida SET Final='Game of Thrones'

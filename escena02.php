@@ -65,7 +65,7 @@ if($count==1){
             <p>
             <label>
                 <input type="radio" name="escena2" value="Lobo" />
-                <span class="white-text">Lobo</span>
+                <span class="white-text">Campamento</span>
             </label>
             </p>
         </div>
@@ -99,7 +99,7 @@ if($count==1){
         </nav>
     </header>
     <div class="container">
-        <h2 class="white-text"><span class="colortemporal">noBosque</span></h2>
+        <h2 class="white-text"><span class="colortemporal">Llanura</span></h2>
         <p class="white-text textoaltura"><span class="colortemporal">La venganza es demasiado importante como para preocuparse por esas cosas, asi que sigues el camino por la llanura</span></p>
         <br><br>
     </div>
