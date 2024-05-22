@@ -27,36 +27,25 @@
             </div>
         </nav>
     </header>
-<?php
-require "conexion.php";
-mysqli_set_charset($conexion,'utf8');
-$sesionusuario = $_POST['nombre_usuario'];
 
-$buscartabla="SELECT * FROM Encuesta_Opcional 
-WHERE nombre_usuario = '$_POST[nombre_usuario]'";
-$resultado = $conexion -> query($buscartabla);
-$count =mysqli_num_rows($resultado);
-if($count==1){   
-    $consulta="DELETE FROM Encuesta_Opcional 
-    WHERE nombre_usuario = '$_POST[nombre_usuario]'";
-    mysqli_query($conexion, $consulta);
-    mysqli_close($conexion);
+<?php
+session_start();
+include "conexion.php";
+/*busca si ya hay una partida llamada igual*/
+mysqli_query($conexion, "UPDATE Encuesta_Opcional SET correo_usuario='$_SESSION[correo]'
+WHERE nombre_usuario ='$_SESSION[usuario]'");
+mysqli_query($conexion, "UPDATE Encuesta_Opcional SET vg_usuario='$_SESSION[vg]'
+WHERE nombre_usuario ='$_SESSION[usuario]'");
+mysqli_query($conexion, "UPDATE Encuesta_Opcional SET music_usuario='$_SESSION[musica]'
+WHERE nombre_usuario ='$_SESSION[usuario]'");
+mysqli_query($conexion, "UPDATE Encuesta_Opcional SET quote_usuario='$_SESSION[quote]'
+WHERE nombre_usuario ='$_SESSION[usuario]'");
     echo'
     <div class="container center-align">
-    <h1 class="white-text colorindex">Datos eliminados con exito</h1>
-    <img src="media/okthenlistenplease.jpg">
+    <h1 class="white-text colorindex">Datos actualizados con exito</h1>
+    <img src="media/mikuhouse.jpg">
     <div class="center-align">
         <a class="waves-effect waves-light btn-large botonindex" href="index.php">Continuar</a>
         </div>
     </div>';
-}else{
-    echo'
-    <div class="container center-align">
-    <h1 class="white-text colorindex">Datos no encontrados</h1>
-    <img src="media/cyberworld.jpg">
-    <div class="center-align">
-        <a class="waves-effect waves-light btn-large botonindex" href="soulkillertarget.php">Reintentar</a>
-        </div>
-    </div>';
-}
 ?>

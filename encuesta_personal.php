@@ -59,8 +59,17 @@ if ( $count>0 ){
      echo "</tr>";
     }
     echo "</table>";
-}else{
-    echo"<h1 style='color:red' >Sin Ningun registro</h1>";
-    }
     echo '<h5><span class="colorindex"><a href="soulkillertarget.php">Eliminar Registro</a></span></h5>';
+}else{
+    echo "</table>";
+    echo'
+    <div class="container center-align">
+    <h1 class="white-text colorindex">Datos no encontrados</h1>
+    <img src="media/chromemouth.jpg">
+    <div class="center-align">
+        <a class="waves-effect waves-light btn-large botonindex" href="camino_personal.php">Reintentar</a>
+        </div>
+    </div>';
+    }
+    
 ?>
